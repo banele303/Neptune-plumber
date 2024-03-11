@@ -8,8 +8,8 @@ export default function ContactInfo() {
     const phoneNumber = "083 3000 705"
     
     return (
-        <div className="py-[4rem]">
-            <div className="grid grid-cols-1 md:grid-cols-2 px-[2rem] md:px-[4rem] dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+        <div className="py-[4rem] dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-[2rem]">
 
 
                 <div className="flex flex-col gap-3">
