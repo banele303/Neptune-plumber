@@ -53,7 +53,7 @@ export default function RiskWeTake() {
       animate={inView ? "animate" : "initial"}
       variants={parallaxVariants}
       transition={{ duration: 3, spring: 250 }}
-      className="mx-auto mt-16 px-[2rem] md:px-[4rem] mb-[10rem]"
+      className="mx-auto mt-16 px-[2rem] md:px-[4rem] mb-[10rem]  dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]"
     >
       {/* Top Heading */}
       <motion.h2
