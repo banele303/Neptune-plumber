@@ -20,7 +20,7 @@ export default function TypeOfWork() {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={{ opacity: inView ? 1 : 0 }}
-      className="flex flex-col md:flex-row custom-negative-z-index gap-8 pt-[4rem]   md:py-[5rem] px-[1rem]"
+      className="flex flex-col md:flex-row custom-negative-z-index gap-8 pt-[4rem]   md:py-[5rem] px-[1rem]  dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]"
     >
      
 
