@@ -4,10 +4,11 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { BookCallAppointment } from "../components/ui/form";
-import { ButtonCallToAction } from "../components/ui/button-call-to-action";
+import ButtonCallToAction from "../components/ui/button-call-to-action";
+
 
 export default function WelcomeGeyser() {
-
+    const phoneNumber = "083 3000 705"
     return (
         <div className="dark:bg-white bg-black mb-[3rem] pb-8  md:pt-[1px] dark:bg-dot-black/[0.2] bg-dot-white/[0.2] px-[2rem] md:px-[4rem] ">
 
@@ -111,16 +112,16 @@ export default function WelcomeGeyser() {
 
                             <br />
                             <br />
-                            To prevent a geyser burst and the consequent damage to your home, consider having a professional qualified plumber service your geyser at least every three to four years. All you need to do is **contact The Geyser Connection**, and we&apos;ll handle all the technical aspects you&apos;d rather not deal with. That’s what we’re here for! 🛠️🔧¹.
+                            To prevent a geyser burst and the consequent damage to your home, consider having a professional qualified plumber service your geyser at least every three to four years. All you need to do is **contact The Geyser Connection**, and we&apos;ll handle all the technical aspects you&apos;d rather not deal with. That&apos;s what we&apos;re here for! 🛠️🔧¹.
 
 
                             <br />
                             <br />
-                            Our skilled team can assess what&apos;s best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day."
+                            Our skilled team can assess what&apos;s best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day.
 
                         </p>
 
-                        <ButtonCallToAction />
+                        <ButtonCallToAction phoneNumber={phoneNumber}/>
                     </div>
 
 
