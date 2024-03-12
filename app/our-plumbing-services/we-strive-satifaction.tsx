@@ -34,7 +34,7 @@ Neptune Plumbing is a locally owned and operated plumbing business in the Pretor
                          🛠️💧
                     </p>
 <div className="max-w-[22rem]">
-<ButtonCallToAction phoneNumber={phoneNumber} /></div>
+<ButtonCallToAction /></div>
 
                 </div>
 
