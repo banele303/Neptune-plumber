@@ -19,7 +19,7 @@ export  function Navbar({ className }: { className?: string }) {
     >
       <div className="flex flex-row md:hidden justify-between pb-4  dark:bg-white bg-black  dark:bg-dot-black/[0.2] bg-dot-white/[0.2]">
       <div className="md:hidden flex flex-start justify-start  pt-4"><Link href="/"><Logo/></Link></div>
-      <div className="md:hidden"><SmallButtonCall phoneNumber={phoneNumber}/></div>
+      <div className="md:hidden"><SmallButtonCall/></div>
       </div>
      <div className="flex  justify-end items-center md:flex-row ">
 
@@ -53,7 +53,7 @@ export  function Navbar({ className }: { className?: string }) {
         </MenuItem>  */}    
         
       </Menu></div>
-      <div className="hidden md:block"><ButtonCallToAction phoneNumber={phoneNumber}/></div>
+      <div className="hidden md:block"><ButtonCallToAction/></div>
      </div>
       
       
