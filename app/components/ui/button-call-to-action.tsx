@@ -3,24 +3,28 @@ import React from "react";
 import { Boxes } from "./background-boxes";
 import { cn } from "../utils/cn";
 import { BookCallAppointment } from "./form";
+import Link from "next/link";
 
-export default function ButtonCallToAction ({phoneNumber}) {
-  const handleButtonClick = () => {
-    window.location.href =`tell:${phoneNumber}`;
-  };
 
+
+export default function ButtonCallToAction () {
+
+  const phoneNumber = '+27 83 300 0705';
   return (
    
 <div className="">
        <div className="flex flex-col justify-start md:mt-6 px-4 ">
-            <button onClick={handleButtonClick} className="bg-blue-800 no-underline group   cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
+            <button  className="bg-blue-800 no-underline group   cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
               <span className="absolute inset-0 overflow-hidden rounded-full">
                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
               </span>
-              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-4 px-4 ring-1 ring-white/10">
-                <span className="text-[17px] text-center">
-                  CALL NOW :+27 83 300 0705
-                </span>
+              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600  ring-1 ring-white/10">
+              <Link
+        href={`tel:${phoneNumber}`}
+        className="py-4 px-4"
+      >
+        Call Now : {phoneNumber}
+      </Link>
                 <svg
                   fill="none"
                   height="16"
