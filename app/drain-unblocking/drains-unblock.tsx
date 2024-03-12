@@ -120,7 +120,7 @@ export default function Drainsunblock() {
 
                         </p>
 
-                        <ButtonCallToAction phoneNumber={phoneNumber} />
+                        <ButtonCallToAction/>
                     </div>
 
 
