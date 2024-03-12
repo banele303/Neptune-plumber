@@ -121,7 +121,7 @@ export default function WelcomeGeyser() {
 
                         </p>
 
-                        <ButtonCallToAction phoneNumber={phoneNumber}/>
+                        <ButtonCallToAction/>
                     </div>
 
 
