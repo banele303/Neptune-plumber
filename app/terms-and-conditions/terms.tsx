@@ -32,7 +32,7 @@ export default function Terms() {
       </h3>
       <p className="text-[18px] md:text-[24px] test-slate-300 py-6">
         Unless there&apos;s a prior agreement, full payment is expected when the work
-        or services " are fully delivered. If a quote was given, the customer
+        or services are fully delivered. If a quote was given, the customer
         needs to pay the entire quoted amount, subtracting any payments already
         made. If no quote was given, the company&apos;s representative will inform
         the customer of the payable amount.
