@@ -11,7 +11,7 @@ import ButtonCallToAction from "./button-call-to-action";
 
 export  function Navbar({ className }: { className?: string }) {
 
-  const phoneNumber = "083 3000 705"
+ 
   const [active, setActive] = useState<string | null>(null);
   return (
     <div

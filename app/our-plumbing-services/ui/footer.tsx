@@ -15,23 +15,26 @@ export default function Footer() {
                 </aside>
                 <nav className="flex flex-col">
                     <h6 className="footer-title text-semibold text-slate-200 text-[17px] ">Neptune Plumbing</h6>
-                    <a className="link link-hover text-slate-400">Home</a>
-                    <a className="link link-hover text-slate-400">About Us</a>
-                    <a className="link link-hover text-slate-400">Services</a>
-                    <a className="link link-hover text-slate-400">Geyser Installation</a>
+                    
+                    <p className="link link-hover text-slate-400"><Link href="/">Home</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/about-us">About Us</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">Services</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/about-us">Geyser Installation</Link> </p>
+                  
                 </nav>
                 <nav>
                     <h6 className="footer-title  text-slate-200 text-[19px]">Services</h6>
-                    <a className="link link-hover text-slate-400">Emergency Plumbing</a>
-                    <a className="link link-hover text-slate-400">Geyser Installation</a>
-                    <a className="link link-hover text-slate-400">Drains</a>
-                    <a className="link link-hover text-slate-400">All plumbing services</a>
+                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">UnBlocking Drains</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/about-us">Geyser Installation</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/about-us">Geyser servicing</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">Emergency Plumbing</Link> </p>
+                  
                 </nav>
                 <nav>
                     <h6 className="footer-title text-slate-200 text-[19px]">Legal</h6>
                     <a className="link link-hover text-slate-400">Terms of use</a>
-                    <a className="link link-hover text-slate-400">Privacy policy</a>
-                    <a className="link link-hover text-slate-400">Cookie policy</a>
+                    <p className="link link-hover text-slate-400"><Link href="/privacy-policy">Privacy policy</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/privacy-policy">Cookie policy</Link> </p>
                 </nav>
             </footer>
             <footer className="footer items-center p-4 ext-neutral-content">

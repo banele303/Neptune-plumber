@@ -25,7 +25,7 @@ export default function Home() {
       <TypeOfWork/>
      <AllServices/>
      <TestimonialSection/>
-    
+    <div className="my-[1rem]"/>
      <Footer/>
     
     </>

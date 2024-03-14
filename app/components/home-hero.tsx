@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeHero() {
-
+  const phoneNumber = '+27 83 300 0705';
   return (
     <div className="dark:bg-white bg-black  pt-[5rem] md:pt-[1px] dark:bg-dot-black/[0.2] bg-dot-white/[0.2] px-[2rem] ">
 
@@ -19,14 +20,19 @@ export default function HomeHero() {
 
 
           <div className="flex flex-col justify-start mt-6 px-4 md:px-[4rem] ml-[-1rem] md:ml-[-4rem]">
-            <button className="bg-orange-500 no-underline group w-[16rem]   cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
+            <button className="bg-orange-500 no-underline group w-[15rem]   cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
               <span className="absolute inset-0 overflow-hidden rounded-full">
                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
               </span>
-              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-4 px-4 ring-1 ring-white/10">
-                <span className="text-[19px] text-center pl-4">
-                  REQUEST SERVICE
-                </span>
+              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-4 px-1 ring-1 ring-white/10">
+               
+               
+              <Link
+        href={`tel:${phoneNumber}`}
+        className="text-center mx-auto"
+      >
+        REQUEST SERVICE
+      </Link>
                 <svg
                   fill="none"
                   height="16"

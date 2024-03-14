@@ -39,7 +39,7 @@ export default function ContactInfo() {
                     <p className="text-[16px] md:text-[20px] font-semibold text-slate-800 text-xl">
                     Our network of local professionals is ready to help, 24/7.
                     </p>
-<div className="md:max-w-[23rem] mt-6 md:mt-1"><ButtonCallToAction/></div>
+<div className="max-w-[18rem] mt-6 md:mt-1"><ButtonCallToAction/></div>
                     
                 </div>
                 <div className="mt-[4rem] md:mt-2">

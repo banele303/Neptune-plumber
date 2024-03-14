@@ -16,9 +16,9 @@ export function SmallButtonCall() {
               <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-2 px-4 ring-1 ring-white/10">
                 <Link
         href={`tel:${phoneNumber}`}
-        className="bg-orange-500  text-white mt-4 font-bold py-2 px-4 rounded"
+        className=""
       >
-        Call : {phoneNumber}
+        Call Now : {phoneNumber}
       </Link>
                 <svg
                   fill="none"
