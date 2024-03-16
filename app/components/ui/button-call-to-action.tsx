@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function ButtonCallToAction () {
 
-  const phoneNumber = '+27 83 300 0705';
+  const phoneNumber = '083 300 0705';
   return (
    
 <div className="">

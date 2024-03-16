@@ -5,7 +5,7 @@ import { cn } from "../utils/cn";
 import Link from "next/link";
 
 export function SmallButtonCall() {
- const phoneNumber = '+27 83 300 0705';
+ const phoneNumber = '083 300 0705';
   return (
     <div className="">
        <div className="flex flex-col justify-start mt-4 px-4">

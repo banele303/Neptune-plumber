@@ -6,12 +6,14 @@ import AboutUswelcome from "./aboutus-welcome";
 import AllServices from "./all-services";
 import OwnerInfor from "./owner-info";
 import RiskWeTake from "./risk-wetake";
+import PhoneSnippet from "./PhoneSnippet";
 
 
 
 export default function AboutUs() {
   return (
     <>
+      <PhoneSnippet />
       <Navbar />
 
       <AboutHero />
