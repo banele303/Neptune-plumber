@@ -1,4 +1,5 @@
 
+import PhoneSnippet from "../about-us/PhoneSnippet";
 import AllServices from "../about-us/all-services";
 import RiskWeTake from "../about-us/risk-wetake";
 import { Navbar } from "../components/ui/Navbar";
@@ -11,6 +12,7 @@ import CustomerSetisfication from "./we-strive-satifaction";
 export default function PlumberHome() {
   return (
     <>
+    <PhoneSnippet/>
       <Navbar/>
       <PlumbingHero />
       <RiskWeTake />
