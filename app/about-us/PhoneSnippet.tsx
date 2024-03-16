@@ -4,7 +4,7 @@ const PhoneSnippet = () => {
   return (
     <>
       <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11405523497/9bVtCIyjnJwZEKn0yb4q" strategy="beforeInteractive" />
-      <Script strategy="lazyOnload">
+      <Script id="AW-11405523497/9bVtCIyjnJwZEKn0yb4q" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
