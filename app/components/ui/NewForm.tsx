@@ -1,13 +1,10 @@
 "use client"
 import { useForm, ValidationError } from '@formspree/react';
-
+import Link from 'next/link';
 export default function NewForm() {
 
   const [state, handleSubmit] = useForm("xdoqdpzr");
-  if (state.succeeded) {
-    return <p className='p-4'>Thanks for Sending Us a message <br /> will be in touch shotly!</p>;
-  }
-
+ 
 
   return (
     <form onSubmit={handleSubmit}>
@@ -47,8 +44,8 @@ export default function NewForm() {
       <button type="submit" disabled={state.submitting}
 
         className="bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-      >
-        Submit
+      ><Link  href="/thanks">  Submit</Link>
+      
       </button>
 
     </form>

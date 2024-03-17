@@ -9,7 +9,7 @@ import Thanks from './thanks';
 
 
 
-export default function PrivacyPolicy() {
+export default function ThanksPage() {
   return (
     <div>
 
