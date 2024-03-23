@@ -11,7 +11,7 @@ export default function OwnerInfor() {
 
             <div className="my-[4rem]">
                 <h3 className="font-Poppins text-2xl md:text-3xl pt-[1rem] leading-9 text-white">
-                    Tommy The Owner of Gotcha Plumbing
+                    Tommy The Owner of Neptune Plumbing
                 </h3>
                 <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
 
