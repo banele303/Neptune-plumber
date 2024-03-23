@@ -46,7 +46,7 @@ const CARDS = [
     designation: "Home Owner",
     content: (
       <p>
-        Outstanding service! Gotcha plumbing delivered exceptionally neat work. Highly recommend for
+        Outstanding service! Neptune Plumbers delivered exceptionally neat work. Highly recommend for
         their professionalism and top-notch results. Five stars!
       </p>
     ),
@@ -57,7 +57,7 @@ const CARDS = [
     designation: "Home Owner",
     content: (
       <p className="text-slate-400">
-        Excellent Service from Walter and his team from Gotcha.
+        Excellent Service from Walter and his team from Neptune Plumbers.
         Had a vacuum breaker that was leaking and in a difficult angle
         in the roof, they came few minutes
         and the problem was resolved. Thanks for the great service.
